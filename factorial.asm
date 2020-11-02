@@ -21,16 +21,11 @@ HLT
 // Starting the recursive loop
 start   STA calculating
 
-        // Storing 2 as the initial multiple and times multiplied
+        // Storing 1 as the initial multiple and counter
         LDA one
-        ADD one
         STA currentMultiple
-        STA timesMultiplied
-
-        // Storing 3 as the calcualtor
-        ADD one
         STA multipleCounter
-
+        
         // Starting the multiplication
         BRA multiply
 
