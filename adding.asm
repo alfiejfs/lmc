@@ -17,6 +17,6 @@ output LDA numEntered
        OUT
        HLT
 
-total DAT
+total      DAT
 numEntered DAT
-one DAT 1
+one        DAT 1
