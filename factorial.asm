@@ -19,47 +19,47 @@ HLT
 //
 
 // Starting the recursive loop
-start   STA calculating
+start STA calculating
+      // Storing 1 as the initial multiple and counter
+      LDA one
+      STA currentMultiple
+      STA multipleCounter
 
-        // Storing 1 as the initial multiple and counter
-        LDA one
-        STA currentMultiple
-        STA multipleCounter
-
-        // Starting the multiplication
-        BRA multiply
+      // Starting the multiplication
+      BRA multiply
 
 // Incrementing the multiple procedure
 incrementMultiple LDA timesMultiplied
-        ADD one
-        SUB calculating
-        BRZ outputValue
-        ADD calculating
-        STA timesMultiplied
-        STA multipleCounter
-        LDA total
-        STA currentMultiple
+                  ADD one
+                  SUB calculating
+                  BRZ outputValue
+                  ADD calculating
+                  STA timesMultiplied
+                  STA multipleCounter
+                  LDA total
+                  STA currentMultiple
 
 // Multiplication procedure
 multiply LDA total
-        ADD currentMultiple
-        STA total
-        LDA multipleCounter
-        SUB one
-        BRZ incrementMultiple
-        STA multipleCounter
-        BRA multiply
+         ADD currentMultiple
+         STA total
+         LDA multipleCounter
+         SUB one
+         BRZ incrementMultiple
+         STA multipleCounter
+         BRA multiply
 
 //
 // Output Procedures
 //
 
 outputOne LDA one
-        OUT
-        HLT
+          OUT
+          HLT
+
 outputValue LDA total
-        OUT
-        HLT
+            OUT
+            HLT
 
 //
 // Memory allocation
