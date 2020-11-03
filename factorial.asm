@@ -25,7 +25,7 @@ start   STA calculating
         LDA one
         STA currentMultiple
         STA multipleCounter
-        
+
         // Starting the multiplication
         BRA multiply
 
@@ -70,5 +70,5 @@ total           DAT
 timesMultiplied DAT
 currentMultiple DAT
 multipleCounter DAT
-one             DAT 1
+one             DAT  1
 err             DAT -1
