@@ -43,4 +43,4 @@ My solutions were made and tested in an online implementation of LMC, developed 
 | 9 | OTC | Output Character | Output accumulator as a chracter (if address register contains 22)
 | | DAT | Data | Used to indicate a location that contains data and reserves a memory address
 
-*Note: Although INP, OUT and OCT all contain the same Op Code, when they are translated from their respective mnemonics, the correct address register is stored alongside the opcode. INP would be stored in memory as 901, OUT as 902 and OCT as 922.*
+*Note: Although INP, OUT and OCT all use the same op code, when they are translated from their respective mnemonics, the correct address register is stored alongside the opcode. INP would be stored in memory as 901, OUT as 902 and OCT as 922.*
