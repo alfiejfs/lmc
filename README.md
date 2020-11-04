@@ -1,7 +1,5 @@
 # LMC
 
----
-
 This is a repository for my solutions to given problems in Little Man Computer's implementation of Assembly.
 
 Problems I have solved with the LMC instruction set:
