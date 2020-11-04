@@ -1,15 +1,13 @@
 // Output all even numbers from 0-100 (inclusive)
 
-count LDA counter
-      OUT
+count OUT
       ADD two
-      STA counter
       SUB oneHundred
       BRZ stop
+      ADD oneHundred
       BRA count
 
 stop HLT
 
-counter DAT
 oneHundred DAT 102
-two DAT 2
+two        DAT 2
