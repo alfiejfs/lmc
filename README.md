@@ -6,6 +6,12 @@ Problems I have solved with the LMC instruction set:
  - [Factorial](https://github.com/alfiejsmith/LMC/blob/master/factorial.asm)
  - [Exponential](https://github.com/alfiejsmith/LMC/blob/master/exponential.asm)
  - [Summation of inputs](https://github.com/alfiejsmith/LMC/blob/master/summation.asm)
+ - [10 <= x <= 15](https://github.com/alfiejsmith/LMC/blob/master/10_11_12_13_14_15.asm)
+ - [Evens from 0-100](https://github.com/alfiejsmith/LMC/blob/master/counter.asm)
+ - [Modulus](https://github.com/alfiejsmith/LMC/blob/master/modulus.asm)
+ - [Odd or Even](https://github.com/alfiejsmith/LMC/blob/master/odd_or_even.asm)
+ - [Round down to nearest n](https://github.com/alfiejsmith/LMC/blob/master/round_down.asm)
+ -
 
 You can use LMC [here](https://peterhigginson.co.uk/lmc/)
 
