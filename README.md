@@ -13,7 +13,9 @@ You can use LMC [here](https://peterhigginson.co.uk/lmc/)
 
 ## About LMC
 
-Little Man Computer (LMC) is an online tool developed by [Peter Higginson](https://peterhigginson.co.uk/) which implements a simple assembly language with a limited instruction set. This implementation is taught across the UK, and the instruction set is mandatory knowledge in most GCSE and A-Level Computer Science
+[Little Man Computer (LMC)](https://en.wikipedia.org/wiki/Little_man_computer) is an instructional model of a computer created in 1965. It models a simple von Neumann architectrue, and has a simple assembly instruction set typically taught to students. This instruction set is mandatory for GCSE and A-Level Computer Science students.
+
+My solutions were made and tested in an online implementation of LMC, developed by [Peter Higginson](https://peterhigginson.co.uk/).
 
 ### What does LMC contain
  - 100 memory locations, numbered 0 to 99
