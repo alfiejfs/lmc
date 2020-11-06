@@ -12,6 +12,7 @@ Problems I have solved with the LMC instruction set:
  - [Odd or even](https://github.com/alfiejsmith/LMC/blob/master/odd_or_even.asm)
  - [Round down to nearest n](https://github.com/alfiejsmith/LMC/blob/master/round_down.asm)
  - [Is prime](https://github.com/alfiejsmith/LMC/blob/master/is_prime.asm)
+ - [Square root](https://github.com/alfiejsmith/LMC/blob/master/square_root.asm)
 
 You can use LMC [here](https://peterhigginson.co.uk/lmc/)
 
