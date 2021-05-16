@@ -46,8 +46,8 @@ My solutions were made and tested in an online implementation of LMC, developed 
 | 7 | BRZ | Branch | Use the given address as the next instruction if the value in the accumulator is zero
 | 8 | BRP | Branch | Use the given address as the next instruction if the value in the accumulator is zero or larger
 | 9 | INP | Input | Take a value from the user and store it in the accumulator (if address register contains 1)
-| 9 | OUT | Output | Output the value in the accumulator (if address register contains 2)
+| 9 | OUT | Output | Output the value in the accumulator (if address register contains 02)
 | 9 | OTC | Output Character | Output accumulator as a chracter (if address register contains 22)
 | | DAT | Data | Used to indicate a location that contains data and reserves a memory address
 
-*Note: Although INP, OUT and OCT all use the same op code, when they are translated from their respective mnemonics, the correct address register is stored alongside the opcode. INP would be stored in memory as 901, OUT as 902 and OCT as 922.*
+*Note: Although INP, OUT and OTC all use the same op code, when they are translated from their respective mnemonics, the correct address register is stored alongside the opcode. INP would be stored in memory as 901, OUT as 902 and OCT as 922.*
